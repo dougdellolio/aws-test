@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#slds-navigation-bar applicationName='My Application' as |bar|}}
+  {{bar.item text='Home'}}
+  {{bar.item text='Events'}}
+  {{bar.item text='Properties'}}
+{{/slds-navigation-bar}}
+
+im the best
 
 {{outlet}}
